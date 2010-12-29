@@ -26,6 +26,13 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_4">
    <item>
+    <widget class="QLabel" name="userinfo">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QSplitter" name="splitter_3">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -67,7 +74,7 @@
          <widget class="QWidget" name="layoutWidget">
           <layout class="QVBoxLayout" name="verticalLayout">
            <item>
-            <widget class="QLabel" name="label">
+            <widget class="QLabel" name="remoteDP">
              <property name="maximumSize">
               <size>
                <width>96</width>
@@ -222,7 +229,7 @@
               </spacer>
              </item>
              <item>
-              <widget class="QLabel" name="label_2">
+              <widget class="QLabel" name="localDP">
                <property name="maximumSize">
                 <size>
                  <width>96</width>
